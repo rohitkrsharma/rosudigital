@@ -5,7 +5,7 @@ export default function WhyUs() {
   return (
     <GradientSection id="whyus" >
       {/* SMALL TAG */}
-      <Typography
+      {/* <Typography
         sx={{
           mt: 4,
           mb: 1,
@@ -19,13 +19,14 @@ export default function WhyUs() {
         }}
       >
         RosuDigital
-      </Typography>
+      </Typography> */}
 
       {/* MAIN HEADING */}
       <Typography
         variant="h3"
         fontWeight="bold"
         sx={{
+          mt: 4,
           mb: 4,
           fontSize: { xs: "2.2rem", md: "3rem" },
           lineHeight: 1.2,
