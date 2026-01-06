@@ -26,7 +26,8 @@ export default function Navbar() {
 
   return (
     <>
-      <AppBar position="fixed" color="default" elevation={2}>
+      <AppBar position="fixed" color="default" elevation={2} sx={{ px: { md: 15 } }}
+      >
         <Toolbar sx={{ justifyContent: "space-between" }}>
 
           {/* LOGO */}
@@ -34,7 +35,7 @@ export default function Navbar() {
             component="img"
             src={rosu}
             alt="RosuDigital Logo"
-            sx={{ height: 80, cursor: "pointer", width: 160 }}
+            sx={{ height: 95, cursor: "pointer", width: 160 }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           />
 

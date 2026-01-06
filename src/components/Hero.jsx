@@ -53,13 +53,11 @@ export default function Hero() {
                 mb: 4,
                 lineHeight: 1.8,
                 fontSize: "1.05rem",
-                maxWidth: "600px",
+                maxWidth: "800px",
               }}
             >
-              Digital is a results-driven digital marketing agency helping
-              startups, local businesses, and brands increase leads, sales, and
-              online visibility using smart strategies and data-backed execution.
-              Our focus is simple — grow your business, not just your followers.
+              RosuDigital is a growth-focused digital marketing agency partnering with startups and businesses to drive measurable results. Through strategic planning and data-backed execution, we help brands generate more leads, increase sales, and strengthen their digital presence.
+              Because real growth matters more than follower counts.
             </Typography>
 
             {/* FEATURES */}
